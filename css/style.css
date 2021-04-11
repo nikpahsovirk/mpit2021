@@ -1,0 +1,115 @@
+header{
+  height:10vh;
+  background-color: #5A599A;
+  width:100%;
+}
+
+footer{
+  height:10vh;
+  background-color: #5A599A;
+  color:white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Oswald;
+  color: black;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Raleway;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin-top: 13px;
+  margin-left:48%;
+}
+
+.hero-image {
+  background-image: url("hero-bg.PNG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 1024px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  position: absolute;
+  width: 463px;
+  height: 168px;
+  left: 501px;
+  top: 281px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: white;
+}
+
+.hero-button{
+  all: unset; 
+  background: #E6D128;
+  border-radius: 100px;
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding: .7em 1.5em;
+  outline: none;  
+}
+
+.logo-nav{
+  margin-top:13px;
+  color:white;
+}
+
+.text-nav{
+  margin-top:17px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li a {
+  color:white;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+.menu li a:hover {
+  color: black;
+}
+
+.menu li {
+  margin-right: 40px;
+}
+
+.tel {
+  font-size: 17px;
+  margin-left: auto;
+  letter-spacing: 0.1em;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
